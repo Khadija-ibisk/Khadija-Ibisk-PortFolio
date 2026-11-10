@@ -46,6 +46,7 @@
 
   /* ---------- Effet machine à écrire ---------- */
   var typed = document.getElementById("typed");
+  if (typed) {
   var words = ["Data Engineering", "Intelligence Artificielle", "Machine Learning", "Data Analytics", "Business Intelligence"];
   if (!reduceMotion) {
     var w = 0, c = words[0].length, deleting = true;
@@ -59,6 +60,8 @@
       setTimeout(tick, delay);
     };
     setTimeout(tick, 2200);
+  }
+
   }
 
   /* ---------- Apparition au défilement + compteurs ---------- */
