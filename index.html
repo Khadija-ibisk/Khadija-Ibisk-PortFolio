@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Khadija Ibisk — Data Engineering & IA</title>
+  <meta name="description" content="Portfolio de Khadija Ibisk, étudiante en Master Ingénierie des Données & IA à Paris Ynov Campus. Recherche un stage Data de 6 mois.">
+  <meta property="og:title" content="Khadija Ibisk — Data Engineering & IA">
+  <meta property="og:description" content="Pipelines de données fiables, Machine Learning et BI. Recherche un stage Data de 6 mois.">
+  <meta property="og:image" content="assets/photo.jpg">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%23ff7a8a'/><text x='50' y='66' font-size='52' font-family='Arial' font-weight='700' text-anchor='middle' fill='white'>KI</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    // Applique le thème enregistré avant l'affichage (évite le flash)
+    (function () {
+      var t = localStorage.getItem("theme");
+      if (!t) t = window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", t);
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Aller au contenu</a>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#accueil" class="logo" aria-label="Accueil">
+        <span class="logo__mark">KI</span><span class="logo__text">Khadija Ibisk</span>
+      </a>
+      <nav aria-label="Navigation principale">
+        <ul class="nav__links" id="navLinks">
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#competences">Compétences</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#parcours">Parcours</a></li>
+          <li><a href="#contact" class="nav__cta">Me contacter</a></li>
+        </ul>
+      </nav>
+      <div class="nav__actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Changer de thème">
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8 6 18M18 6l1.8-1.8"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg>
+        </button>
+        <button class="icon-btn burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="accueil">
+      <canvas id="network" aria-hidden="true"></canvas>
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="badge"><span class="pulse"></span> Disponible pour un stage Data de 6 mois</p>
+          <h1>Bonjour, je suis <span class="grad">Khadija Ibisk</span></h1>
+          <p class="hero__role">
+            <span class="role-prefix">Future ingénieure en</span>
+            <span class="typed" id="typed">Data Engineering</span><span class="caret" aria-hidden="true"></span>
+          </p>
+          <p class="hero__lead">
+            Étudiante en <strong>Master Ingénierie des Données & IA</strong> à Paris Ynov Campus.
+            Je conçois des <strong>pipelines de données fiables et automatisés</strong> et je les mets au service
+            de cas d'usage analytiques et d'intelligence artificielle.
+          </p>
+          <div class="hero__cta">
+            <a href="#projets" class="btn btn--primary">Voir mes projets
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="assets/CV_Khadija_Ibisk.pdf" class="btn btn--ghost" download>Télécharger mon CV
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
+            </a>
+          </div>
+          <ul class="socials">
+            <li><a href="https://www.linkedin.com/in/khadija-ibisk" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4v11H3zM9.5 9.5h3.8v1.6h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1v5.35h-4v-4.75c0-1.13-.02-2.6-1.58-2.6-1.59 0-1.83 1.24-1.83 2.52v4.83h-4z"/></svg>
+            </a></li>
+            <li><a href="https://github.com/Khadija-ibisk" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.56 9.56 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+            </a></li>
+            <li><a href="mailto:khadija.ibisk@ynov.com" aria-label="E-mail">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            </a></li>
+          </ul>
+        </div>
+
+        <div class="hero__visual">
+          <div class="portrait">
+            <div class="portrait__ring"></div>
+            <img src="assets/photo.jpg" alt="Portrait de Khadija Ibisk" width="600" height="600">
+          </div>
+          <div class="float-card fc-1">
+            <span class="fc__icon">⚙️</span>
+            <div><strong>ETL & pipelines</strong><small>Python · SQL · PostgreSQL</small></div>
+          </div>
+          <div class="float-card fc-2">
+            <span class="fc__icon">🤖</span>
+            <div><strong>Machine Learning</strong><small>Random Forest · KMeans</small></div>
+          </div>
+          <div class="float-card fc-3">
+            <span class="fc__icon">📊</span>
+            <div><strong>BI & Dataviz</strong><small>Power BI · DAX</small></div>
+          </div>
+        </div>
+      </div>
+      <a href="#apropos" class="scroll-hint" aria-label="Défiler vers le bas"><span></span></a>
+    </section>
+
+    <!-- ============ CHIFFRES ============ -->
+    <section class="stats">
+      <div class="container stats__grid">
+        <div class="stat reveal"><span class="stat__num" data-count="9">0</span><span class="stat__label">projets data réalisés</span></div>
+        <div class="stat reveal"><span class="stat__num" data-count="3">0</span><span class="stat__label">expériences en entreprise</span></div>
+        <div class="stat reveal"><span class="stat__num" data-count="25" data-suffix="+">0</span><span class="stat__label">technologies maîtrisées</span></div>
+        <div class="stat reveal"><span class="stat__num" data-count="3">0</span><span class="stat__label">langues parlées</span></div>
+      </div>
+    </section>
+
+    <!-- ============ À PROPOS ============ -->
+    <section class="section" id="apropos">
+      <div class="container about">
+        <div class="section__head reveal">
+          <span class="eyebrow">01 · À propos</span>
+          <h2>Des données <span class="grad">fiables</span>, au service de décisions <span class="grad">utiles</span>.</h2>
+        </div>
+        <div class="about__grid">
+          <div class="about__text reveal">
+            <p>
+              Étudiante en <strong>Master Ingénierie des Données & IA</strong> à Paris Ynov Campus, je recherche un
+              <strong>stage de 6 mois en Data</strong> — Data Engineering, Data Analytics ou IA / Machine Learning —
+              tous secteurs confondus.
+            </p>
+            <p>
+              Je conçois des pipelines automatisés (Python, SQL, PostgreSQL, CI/CD) et je les relie à des usages
+              concrets : modèles de Machine Learning, analyses statistiques et tableaux de bord Power BI.
+            </p>
+            <p>
+              Ma première expérience en <strong>environnement bancaire réglementé</strong> chez Bank Al-Maghrib m'a
+              appris que la qualité, la traçabilité et la fiabilité des données ne sont pas négociables.
+            </p>
+            <ul class="traits">
+              <li>Rigoureuse</li><li>Autonome</li><li>Esprit d'équipe (Scrum)</li><li>Rigueur scientifique</li><li>Adaptabilité</li>
+            </ul>
+          </div>
+          <div class="about__cards">
+            <article class="mini-card reveal">
+              <div class="mini-card__icon">🛠️</div>
+              <h3>Data Engineering</h3>
+              <p>Ingestion de fichiers hétérogènes, validation de schéma, contrôle qualité et chargement en base.</p>
+            </article>
+            <article class="mini-card reveal">
+              <div class="mini-card__icon">🧠</div>
+              <h3>IA & Machine Learning</h3>
+              <p>Détection de profils à risque, segmentation, tests statistiques et prévision.</p>
+            </article>
+            <article class="mini-card reveal">
+              <div class="mini-card__icon">📈</div>
+              <h3>Business Intelligence</h3>
+              <p>Modélisation en étoile, mesures DAX et dashboards qui racontent une histoire.</p>
+            </article>
+            <article class="mini-card reveal">
+              <div class="mini-card__icon">🔐</div>
+              <h3>Qualité & gouvernance</h3>
+              <p>RBAC, journal d'audit et traçabilité, acquis en environnement réglementé.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COMPÉTENCES ============ -->
+    <section class="section section--alt" id="competences">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">02 · Compétences</span>
+          <h2>Ma boîte à outils <span class="grad">data</span></h2>
+          <p class="section__sub">Du fichier brut au tableau de bord, en passant par le modèle de Machine Learning.</p>
+        </div>
+        <div class="skills">
+          <div class="skill-card reveal">
+            <h3><span>⚙️</span> Data Engineering & Dev</h3>
+            <ul class="chips"><li>Python</li><li>SQL</li><li>PostgreSQL</li><li>ETL / pipelines</li><li>FastAPI</li><li>POO</li></ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3><span>🧠</span> Data Science & ML</h3>
+            <ul class="chips"><li>Pandas</li><li>NumPy</li><li>SciPy</li><li>scikit-learn</li><li>Random Forest</li><li>KMeans</li><li>t de Student</li><li>Chi-deux</li></ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3><span>📊</span> BI & Visualisation</h3>
+            <ul class="chips"><li>Power BI</li><li>DAX</li><li>Modélisation en étoile</li><li>Matplotlib</li><li>Seaborn</li><li>Grafana</li></ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3><span>🗄️</span> Bases de données</h3>
+            <ul class="chips"><li>PostgreSQL</li><li>MongoDB</li><li>Cassandra</li><li>Neo4j</li><li>Redis</li></ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3><span>🔐</span> Qualité & gouvernance</h3>
+            <ul class="chips"><li>Validation de schéma</li><li>Contrôle qualité</li><li>RBAC</li><li>Journal d'audit</li><li>Traçabilité</li></ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3><span>🚀</span> DevOps & outils</h3>
+            <ul class="chips"><li>Git</li><li>GitHub Actions</li><li>Docker</li><li>Linux</li><li>Bash</li><li>Jira</li><li>Confluence</li><li>Prometheus</li></ul>
+          </div>
+        </div>
+        <div class="langs reveal">
+          <div class="lang"><span class="lang__name">Arabe</span><span class="lang__bar"><i style="--w:100%"></i></span><span class="lang__lvl">Langue maternelle</span></div>
+          <div class="lang"><span class="lang__name">Français</span><span class="lang__bar"><i style="--w:90%"></i></span><span class="lang__lvl">Courant</span></div>
+          <div class="lang"><span class="lang__name">Anglais</span><span class="lang__bar"><i style="--w:60%"></i></span><span class="lang__lvl">Conversationnel</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJETS ============ -->
+    <section class="section" id="projets">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">03 · Projets</span>
+          <h2>Des projets <span class="grad">concrets</span>, de bout en bout</h2>
+          <p class="section__sub">Pipelines, Machine Learning, BI et architectures de données.</p>
+        </div>
+
+        <div class="filters reveal" role="tablist" aria-label="Filtrer les projets">
+          <button class="filter is-active" data-filter="all">Tous</button>
+          <button class="filter" data-filter="de">Data Engineering</button>
+          <button class="filter" data-filter="ml">IA / ML</button>
+          <button class="filter" data-filter="bi">BI & Analytics</button>
+          <button class="filter" data-filter="db">Bases de données</button>
+        </div>
+
+        <div class="projects" id="projects">
+          <article class="project project--featured reveal" data-cat="ml de">
+            <div class="project__top"><span class="project__year">2025</span><span class="project__tag">Data & ML</span></div>
+            <h3>EduTrack Analytics</h3>
+            <p class="project__sub">Analyse de performance des étudiants</p>
+            <p>Pipeline ETL (CSV / Excel vers une base relationnelle de 8 tables) avec validation et nettoyage, KPI sur
+              300 étudiants, détection des profils à risque par <strong>Random Forest</strong> et segmentation
+              <strong>KMeans</strong>, exposés via une API FastAPI et une interface React.</p>
+            <div class="project__metrics"><span><b>300</b> étudiants</span><span><b>8</b> tables</span><span><b>2</b> modèles ML</span></div>
+            <ul class="tags"><li>Python</li><li>ETL</li><li>scikit-learn</li><li>FastAPI</li><li>React</li></ul>
+          </article>
+
+          <article class="project reveal" data-cat="de">
+            <div class="project__top"><span class="project__year">2026</span><span class="project__tag">ETL & qualité</span></div>
+            <h3>Moteur d'ingestion de données</h3>
+            <p>Pipeline ETL en Python qui parse des fichiers hétérogènes (XML, JSON, CSV), valide les schémas, contrôle la
+              qualité et charge les données dans PostgreSQL.</p>
+            <ul class="tags"><li>Python</li><li>PostgreSQL</li><li>XML / JSON / CSV</li><li>Data quality</li></ul>
+          </article>
+
+          <article class="project reveal" data-cat="de bi">
+            <div class="project__top"><span class="project__year">2026</span><span class="project__tag">Challenge 48h</span></div>
+            <h3>HARI — Plateforme RH propulsée par l'IA</h3>
+            <p>Challenge YDays en équipe de 10 (Scrum). Rôle Data : modèle de données RH et KPI d'absentéisme et de turnover
+              pour une plateforme sécurisée (RBAC, journal d'audit).</p>
+            <ul class="tags"><li>Modélisation</li><li>KPI RH</li><li>RBAC</li><li>Scrum</li><li>CI/CD</li></ul>
+          </article>
+
+          <article class="project reveal" data-cat="de ml">
+            <div class="project__top"><span class="project__year">2026</span><span class="project__tag">Data Eng. & IA</span></div>
+            <h3>RENEW — Smart Building</h3>
+            <p>Structuration et nettoyage de données BIM, inventaire numérique des matériaux et contribution à des
+              solutions d'IA de classification.</p>
+            <ul class="tags"><li>Données BIM</li><li>Nettoyage</li><li>Classification</li></ul>
+          </article>
+
+          <article class="project reveal" data-cat="bi">
+            <div class="project__top"><span class="project__year">2025</span><span class="project__tag">BI & DAX</span></div>
+            <h3>Dashboard Power BI — Analyse des ventes</h3>
+            <p>Modèle en étoile (Ventes, Clients, Produits, Régions, Temps) construit à partir de CSV, mesures DAX et
+              dashboard interactif.</p>
+            <div class="project__metrics"><span><b>732K</b> de CA</span><span><b>500</b> ventes</span><span><b>33 %</b> du CA à Casablanca</span></div>
+            <ul class="tags"><li>Power BI</li><li>DAX</li><li>Schéma en étoile</li></ul>
+          </article>
+
+          <article class="project reveal" data-cat="db">
+            <div class="project__top"><span class="project__year">2025</span><span class="project__tag">Architecture</span></div>
+            <h3>SpotifYnov — Persistance polyglotte</h3>
+            <p>Backend multi-bases : MongoDB pour les métadonnées, Cassandra pour les séries temporelles, Redis pour le cache
+              et Neo4j pour les recommandations.</p>
+            <ul class="tags"><li>MongoDB</li><li>Cassandra</li><li>Redis</li><li>Neo4j</li></ul>
+          </article>
+
+          <article class="project reveal" data-cat="bi ml">
+            <div class="project__top"><span class="project__year">2024</span><span class="project__tag">Statistiques</span></div>
+            <h3>Analyse SLA e-commerce</h3>
+            <p>Analyse statistique de 500 échantillons (t de Student, Chi-deux) pour identifier les goulots d'étranglement
+              des serveurs.</p>
+            <ul class="tags"><li>SciPy</li><li>Tests statistiques</li><li>Pandas</li></ul>
+          </article>
+
+          <article class="project project--gh reveal" data-cat="de bi db">
+            <div class="project__top"><span class="project__year">2025</span><span class="project__tag">Open source</span></div>
+            <h3>E-commerce Sales Analytics</h3>
+            <p>Entrepôt SQL en étoile, ETL Python, requêtes analytiques (CTE, RANK, NTILE), segmentation RFM, cohortes,
+              prévision du CA et tableau de bord HTML, testés et intégrés en continu.</p>
+            <ul class="tags"><li>SQL</li><li>ETL</li><li>RFM</li><li>Prévision</li><li>GitHub Actions</li></ul>
+            <a class="project__link" href="https://github.com/Khadija-ibisk/ecommerce-sales-analytics" target="_blank" rel="noopener">Voir le code sur GitHub →</a>
+          </article>
+
+          <article class="project project--gh reveal" data-cat="ml de">
+            <div class="project__top"><span class="project__year">2025</span><span class="project__tag">Open source</span></div>
+            <h3>Customer Churn Analysis</h3>
+            <p>Prédiction du churn d'un opérateur télécom : nettoyage, KPI SQL, analyse exploratoire, comparaison de
+              3 modèles scikit-learn (ROC AUC 0,81) et rapport automatique.</p>
+            <ul class="tags"><li>Python</li><li>scikit-learn</li><li>SQL</li><li>pytest</li></ul>
+            <a class="project__link" href="https://github.com/Khadija-ibisk/customer-churn-analysis" target="_blank" rel="noopener">Voir le code sur GitHub →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PARCOURS ============ -->
+    <section class="section section--alt" id="parcours">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">04 · Parcours</span>
+          <h2>Expériences & <span class="grad">formation</span></h2>
+        </div>
+        <div class="journey">
+          <div class="timeline">
+            <h3 class="timeline__title">💼 Expériences professionnelles</h3>
+            <div class="tl-item reveal">
+              <span class="tl-date">Jan. 2023 – Sept. 2026</span>
+              <h4>Conseillère technique</h4>
+              <p class="tl-org">Foundever · Rabat</p>
+              <ul>
+                <li>Résolution d'incidents IT complexes pour des comptes entreprises.</li>
+                <li>Suivi et analyse des incidents et des indicateurs de performance avec Power BI.</li>
+                <li>Collaboration avec les équipes transverses pour optimiser les protocoles de réponse.</li>
+              </ul>
+            </div>
+            <div class="tl-item reveal">
+              <span class="tl-date">Juil. – Août 2022</span>
+              <h4>Stagiaire Data & Développement</h4>
+              <p class="tl-org">Bank Al-Maghrib (banque centrale du Maroc) · Rabat</p>
+              <ul>
+                <li>Analyse fonctionnelle de projets bancaires stratégiques et d'initiatives digitales.</li>
+                <li>Nettoyage, structuration et qualification de données pour le reporting interne.</li>
+              </ul>
+            </div>
+            <div class="tl-item reveal">
+              <span class="tl-date">Sept. 2022</span>
+              <h4>Stagiaire Digitalisation Maintenance</h4>
+              <p class="tl-org">Lear Corporation · Kénitra</p>
+              <ul>
+                <li>Passage du papier à un suivi digital structuré de l'inventaire et de la maintenance industrielle.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline">
+            <h3 class="timeline__title">🎓 Formation</h3>
+            <div class="tl-item reveal">
+              <span class="tl-date">2026 – 2028</span>
+              <h4>Master IA & Data Engineering</h4>
+              <p class="tl-org">Paris Ynov Campus</p>
+            </div>
+            <div class="tl-item reveal">
+              <span class="tl-date">2024 – 2026</span>
+              <h4>Bachelor Dev IA & Data Engineering</h4>
+              <p class="tl-org">Ynov Campus Casablanca</p>
+            </div>
+            <div class="tl-item reveal">
+              <span class="tl-date">2021</span>
+              <h4>DEUG Mathématiques & Informatique</h4>
+              <p class="tl-org">Université Ibn Tofail</p>
+            </div>
+            <div class="tl-item reveal">
+              <span class="tl-date">2018</span>
+              <h4>Baccalauréat Sciences Mathématiques A</h4>
+              <p class="tl-org">Lycée Abdelmalek Essaâdi</p>
+            </div>
+            <div class="interests reveal">
+              <h4>En dehors de la data</h4>
+              <ul class="chips chips--soft"><li>✈️ Voyages</li><li>🎨 Design graphique</li><li>📚 Littérature classique</li><li>🛡️ Veille cybersécurité</li></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact__box reveal">
+          <span class="eyebrow">05 · Contact</span>
+          <h2>Construisons ensemble vos <span class="grad">pipelines de demain</span>.</h2>
+          <p>Je recherche un <strong>stage Data de 6 mois</strong> (Data Engineering, Data Analytics, IA / ML).
+            Basée à Nanterre, mobile en Île-de-France.</p>
+          <div class="contact__actions">
+            <a class="btn btn--primary" href="mailto:khadija.ibisk@ynov.com">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              khadija.ibisk@ynov.com
+            </a>
+            <button class="btn btn--ghost" id="copyEmail" data-email="khadija.ibisk@ynov.com">Copier l'e-mail</button>
+          </div>
+          <div class="contact__links">
+            <a href="https://www.linkedin.com/in/khadija-ibisk" target="_blank" rel="noopener">LinkedIn</a>
+            <span>·</span>
+            <a href="https://github.com/Khadija-ibisk" target="_blank" rel="noopener">GitHub</a>
+            <span>·</span>
+            <a href="assets/CV_Khadija_Ibisk.pdf" download>CV (PDF)</a>
+            <span>·</span>
+            <span>📍 Nanterre, France</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Khadija Ibisk · Conçu avec soin, HTML, CSS & JavaScript.</p>
+      <a href="#accueil" class="to-top" aria-label="Retour en haut">↑</a>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
