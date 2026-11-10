@@ -16,4 +16,4 @@ python -m http.server 8000
 
 ## Mettre en ligne (GitHub Pages)
 
-Pousser ce dossier dans un dépôt GitHub, puis **Settings → Pages → Branch : main / root**.
+Site en ligne : https://khadija-ibisk.github.io/Khadija-Ibisk-PortFolio/ (GitHub Pages, **Settings → Pages → Branch : main / root**).
