@@ -233,20 +233,7 @@
         </div>
 
         <div class="projects" id="projects">
-          <article class="project project--featured project--gh reveal" data-cat="de ml db">
-            <div class="project__top"><span class="project__year">2026</span><span class="project__tag">Data Engineering · Open source</span></div>
-            <h3>Energy Data Platform</h3>
-            <p class="project__sub">Plateforme de données sur la consommation électrique en France</p>
-            <p>Plateforme de bout en bout sur 12 régions : ingestion CSV / JSON, <strong>framework de qualité des données</strong>
-              avec quarantaine, entrepôt en couches raw → staging → marts en SQL avancé, <strong>orchestrateur DAG</strong>
-              avec reprises automatiques, <strong>prévision J+1</strong> par gradient boosting et <strong>API REST FastAPI</strong>,
-              le tout testé, conteneurisé (Docker) et intégré en continu.</p>
-            <div class="project__metrics"><span><b>210K</b> mesures horaires</span><span><b>18</b> contrôles qualité</span><span><b>2,2 %</b> d'erreur de prévision</span><span><b>25</b> tests</span></div>
-            <ul class="tags"><li>Python</li><li>SQL</li><li>Data quality</li><li>Orchestration</li><li>scikit-learn</li><li>FastAPI</li><li>Docker</li><li>CI/CD</li></ul>
-            <a class="project__link" href="https://github.com/Khadija-ibisk/energy-data-platform" target="_blank" rel="noopener">Voir le code sur GitHub →</a>
-          </article>
-
-          <article class="project reveal" data-cat="ml de">
+          <article class="project project--featured reveal" data-cat="ml de">
             <div class="project__top"><span class="project__year">2025</span><span class="project__tag">Data & ML</span></div>
             <h3>EduTrack Analytics</h3>
             <p class="project__sub">Analyse de performance des étudiants</p>
@@ -276,12 +263,23 @@
             <a class="project__link" href="https://github.com/shademounir/Hari" target="_blank" rel="noopener">Voir le code de l'équipe sur GitHub →</a>
           </article>
 
-          <article class="project reveal" data-cat="de ml">
-            <div class="project__top"><span class="project__year">2026</span><span class="project__tag">Data Eng. & IA</span></div>
-            <h3>RENEW — Smart Building</h3>
-            <p>Structuration et nettoyage de données BIM, inventaire numérique des matériaux et contribution à des
-              solutions d'IA de classification.</p>
-            <ul class="tags"><li>Données BIM</li><li>Nettoyage</li><li>Classification</li></ul>
+          <article class="project reveal" data-cat="db">
+            <div class="project__top"><span class="project__year">2025</span><span class="project__tag">Architecture</span></div>
+            <h3>SpotifYnov — Persistance polyglotte</h3>
+            <p>Backend multi-bases : MongoDB pour les métadonnées, Cassandra pour les séries temporelles, Redis pour le cache
+              et Neo4j pour les recommandations.</p>
+            <ul class="tags"><li>MongoDB</li><li>Cassandra</li><li>Redis</li><li>Neo4j</li></ul>
+            <a class="project__link" href="https://github.com/Khadija-ibisk/spotifynov-nosql" target="_blank" rel="noopener">Voir le code sur GitHub →</a>
+          </article>
+
+          <article class="project reveal" data-cat="bi">
+            <div class="project__top"><span class="project__year">2026</span><span class="project__tag">Data Analytics</span></div>
+            <h3>Analyse des ventes — Online Retail II</h3>
+            <p>Analyse de 525 000 transactions réelles d'une boutique en ligne britannique : nettoyage (doublons, retours,
+              clients manquants), chiffre d'affaires, top produits, panier moyen et saisonnalité des ventes.</p>
+            <div class="project__metrics"><span><b>525K</b> lignes</span><span><b>8,8 M£</b> de CA</span><span><b>×2</b> en novembre</span></div>
+            <ul class="tags"><li>Python</li><li>pandas</li><li>Matplotlib</li><li>Nettoyage</li></ul>
+            <a class="project__link" href="https://github.com/Khadija-ibisk/online-retail-sales-analysis" target="_blank" rel="noopener">Voir le code sur GitHub →</a>
           </article>
 
           <article class="project reveal" data-cat="bi">
@@ -294,13 +292,38 @@
             <a class="project__link" href="https://github.com/Khadija-ibisk/powerbi-sales-dashboard" target="_blank" rel="noopener">Voir le code sur GitHub →</a>
           </article>
 
-          <article class="project reveal" data-cat="db">
-            <div class="project__top"><span class="project__year">2025</span><span class="project__tag">Architecture</span></div>
-            <h3>SpotifYnov — Persistance polyglotte</h3>
-            <p>Backend multi-bases : MongoDB pour les métadonnées, Cassandra pour les séries temporelles, Redis pour le cache
-              et Neo4j pour les recommandations.</p>
-            <ul class="tags"><li>MongoDB</li><li>Cassandra</li><li>Redis</li><li>Neo4j</li></ul>
-            <a class="project__link" href="https://github.com/Khadija-ibisk/spotifynov-nosql" target="_blank" rel="noopener">Voir le code sur GitHub →</a>
+          <article class="project reveal" data-cat="de bi">
+            <div class="project__top"><span class="project__year">2026</span><span class="project__tag">ETL Talend</span></div>
+            <h3>ETL Talend — Enrichissement & qualité</h3>
+            <p>Job Talend qui fusionne des fichiers de transactions hétérogènes, les enrichit (devises, catégories, liste noire),
+              isole les anomalies, produit un rapport de qualité envoyé par e-mail et alimente des rapports Power BI.</p>
+            <ul class="tags"><li>Talend</li><li>ETL</li><li>Data quality</li><li>Power BI</li></ul>
+            <a class="project__link" href="https://github.com/Khadija-ibisk/talend-etl-data-quality" target="_blank" rel="noopener">Voir le code sur GitHub →</a>
+          </article>
+
+          <article class="project project--gh reveal" data-cat="de ml db">
+            <div class="project__top"><span class="project__year">2026</span><span class="project__tag">Data Engineering · Open source</span></div>
+            <h3>Energy Data Platform</h3>
+            <p class="project__sub">Plateforme de données sur la consommation électrique en France</p>
+            <p>Plateforme de bout en bout sur 12 régions : ingestion CSV / JSON, <strong>framework de qualité des données</strong>
+              avec quarantaine, entrepôt en couches raw → staging → marts en SQL avancé, <strong>orchestrateur DAG</strong>
+              avec reprises automatiques, <strong>prévision J+1</strong> par gradient boosting et <strong>API REST FastAPI</strong>,
+              le tout testé, conteneurisé (Docker) et intégré en continu.</p>
+            <div class="project__metrics"><span><b>210K</b> mesures horaires</span><span><b>18</b> contrôles qualité</span><span><b>2,2 %</b> d'erreur de prévision</span><span><b>25</b> tests</span></div>
+            <ul class="tags"><li>Python</li><li>SQL</li><li>Data quality</li><li>Orchestration</li><li>scikit-learn</li><li>FastAPI</li><li>Docker</li><li>CI/CD</li></ul>
+            <a class="project__link" href="https://github.com/Khadija-ibisk/energy-data-platform" target="_blank" rel="noopener">Voir le code sur GitHub →</a>
+          </article>
+        </div>
+
+        <details class="more-projects reveal">
+          <summary>Voir les 8 autres projets</summary>
+          <div class="projects projects--more">
+          <article class="project reveal" data-cat="de ml">
+            <div class="project__top"><span class="project__year">2026</span><span class="project__tag">Data Eng. & IA</span></div>
+            <h3>RENEW — Smart Building</h3>
+            <p>Structuration et nettoyage de données BIM, inventaire numérique des matériaux et contribution à des
+              solutions d'IA de classification.</p>
+            <ul class="tags"><li>Données BIM</li><li>Nettoyage</li><li>Classification</li></ul>
           </article>
 
           <article class="project reveal" data-cat="bi ml">
@@ -310,15 +333,6 @@
               des serveurs.</p>
             <ul class="tags"><li>SciPy</li><li>Tests statistiques</li><li>Pandas</li></ul>
             <a class="project__link" href="https://github.com/Khadija-ibisk/ecommerce-sla-statistics" target="_blank" rel="noopener">Voir le code sur GitHub →</a>
-          </article>
-
-          <article class="project reveal" data-cat="de bi">
-            <div class="project__top"><span class="project__year">2026</span><span class="project__tag">ETL Talend</span></div>
-            <h3>ETL Talend — Enrichissement & qualité</h3>
-            <p>Job Talend qui fusionne des fichiers de transactions hétérogènes, les enrichit (devises, catégories, liste noire),
-              isole les anomalies, produit un rapport de qualité envoyé par e-mail et alimente des rapports Power BI.</p>
-            <ul class="tags"><li>Talend</li><li>ETL</li><li>Data quality</li><li>Power BI</li></ul>
-            <a class="project__link" href="https://github.com/Khadija-ibisk/talend-etl-data-quality" target="_blank" rel="noopener">Voir le code sur GitHub →</a>
           </article>
 
           <article class="project reveal" data-cat="db">
@@ -348,16 +362,6 @@
             <a class="project__link" href="https://github.com/Khadija-ibisk/chatbot-ynov" target="_blank" rel="noopener">Voir le code sur GitHub →</a>
           </article>
 
-          <article class="project reveal" data-cat="bi">
-            <div class="project__top"><span class="project__year">2026</span><span class="project__tag">Data Analytics</span></div>
-            <h3>Analyse des ventes — Online Retail II</h3>
-            <p>Analyse de 525 000 transactions réelles d'une boutique en ligne britannique : nettoyage (doublons, retours,
-              clients manquants), chiffre d'affaires, top produits, panier moyen et saisonnalité des ventes.</p>
-            <div class="project__metrics"><span><b>525K</b> lignes</span><span><b>8,8 M£</b> de CA</span><span><b>×2</b> en novembre</span></div>
-            <ul class="tags"><li>Python</li><li>pandas</li><li>Matplotlib</li><li>Nettoyage</li></ul>
-            <a class="project__link" href="https://github.com/Khadija-ibisk/online-retail-sales-analysis" target="_blank" rel="noopener">Voir le code sur GitHub →</a>
-          </article>
-
           <article class="project reveal" data-cat="db">
             <div class="project__top"><span class="project__year">2025</span><span class="project__tag">Modélisation SQL</span></div>
             <h3>YAir Line — Base de données aérienne</h3>
@@ -384,7 +388,8 @@
             <ul class="tags"><li>Python</li><li>scikit-learn</li><li>SQL</li><li>pytest</li></ul>
             <a class="project__link" href="https://github.com/Khadija-ibisk/customer-churn-analysis" target="_blank" rel="noopener">Voir le code sur GitHub →</a>
           </article>
-        </div>
+          </div>
+        </details>
       </div>
     </section>
 

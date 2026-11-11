@@ -430,3 +430,17 @@ svg .fill { fill: currentColor; stroke: none; }
   .reveal { opacity: 1; transform: none; }
   html { scroll-behavior: auto; }
 }
+
+/* ---------------- Autres projets (section repliable) ---------------- */
+.more-projects { margin-top: 28px; }
+.more-projects summary {
+  list-style: none; cursor: pointer; width: fit-content; margin: 0 auto;
+  padding: 12px 24px; border-radius: 999px; font-weight: 600; font-size: 15px;
+  background: var(--surface); border: 1px solid var(--border); color: var(--text);
+  transition: border-color .2s, transform .2s;
+}
+.more-projects summary::-webkit-details-marker { display: none; }
+.more-projects summary::after { content: " ▾"; color: var(--rose); }
+.more-projects[open] summary::after { content: " ▴"; }
+.more-projects summary:hover { border-color: var(--rose); transform: translateY(-2px); }
+.projects--more { margin-top: 24px; }
