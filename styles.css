@@ -444,3 +444,6 @@ svg .fill { fill: currentColor; stroke: none; }
 .more-projects[open] summary::after { content: " ▴"; }
 .more-projects summary:hover { border-color: var(--rose); transform: translateY(-2px); }
 .projects--more { margin-top: 24px; }
+
+/* ---------------- Bouton de langue ---------------- */
+.lang-btn { font: 700 13px var(--font); letter-spacing: .04em; }

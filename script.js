@@ -127,7 +127,7 @@
   document.getElementById("copyEmail").addEventListener("click", function () {
     var email = this.dataset.email;
     if (navigator.clipboard) {
-      navigator.clipboard.writeText(email).then(function () { showToast("E-mail copié ✓"); },
+      navigator.clipboard.writeText(email).then(function () { showToast(window.i18nToast ? window.i18nToast() : "E-mail copié ✓"); },
         function () { showToast(email); });
     } else { showToast(email); }
   });
