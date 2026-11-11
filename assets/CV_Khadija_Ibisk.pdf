@@ -39,13 +39,13 @@ endobj
 /Trans <<
 >>
 /Type /Page
-/Annots [ 12 0 R 13 0 R ]
+/Annots [ 12 0 R 13 0 R 14 0 R ]
 /Parent 2 0 R
 >>
 endobj
 5 0 obj
 <<
-/Length 16960
+/Length 17641
 >>
 stream
 q
@@ -705,13 +705,53 @@ BT
 /F1-0 12 Tf
 14.4 TL
 ET
+1 g
+n
+45.18504 767.85 340.0203 12.125 re
+f*
+0 g
+BT
+/F2-0 9.7 Tf
+11.64 TL
+ET
+BT
+1 0 0 1 45.68504 770.76 Tm
+(Master Ing\351nierie des Donn\351es \046 IA \227 Stage Data de 6 mois) Tj
+T*
+ET
+0.75 0.16 0.3 rg
+BT
+1 0 0 1 323.299 770.76 Tm
+( \267 Disponible imm\351diatement) Tj
+T*
+ET
 BT
 /F1-0 8.051 Tf
 9.6612 TL
 ET
 0.33 g
 BT
-1 0 0 1 145.453 746.9936 Tm
+1 0 0 1 271.2741 757.86 Tm
+( \174 ) Tj
+T*
+ET
+0.12 0.23 0.42 rg
+BT
+/F2-0 8.051 Tf
+9.6612 TL
+ET
+BT
+1 0 0 1 277.8437 757.86 Tm
+(github\056com\057Khadija\055ibisk) Tj
+T*
+ET
+BT
+/F1-0 8.051 Tf
+9.6612 TL
+ET
+0.33 g
+BT
+1 0 0 1 145.453 746.99 Tm
 ( \174 Portfolio \072 ) Tj
 T*
 ET
@@ -721,8 +761,22 @@ BT
 ET
 0.12 0.23 0.42 rg
 BT
-1 0 0 1 188.2683 746.9936 Tm
+1 0 0 1 188.2683 746.99 Tm
 (khadija\055ibisk\056github\056io\057Khadija\055Ibisk\055PortFolio) Tj
+T*
+ET
+1 g
+n
+45.18504 269.3419 183.9717 11.03375 re
+f*
+0 g
+BT
+/F2-0 8.827 Tf
+10.5924 TL
+ET
+BT
+1 0 0 1 45.68504 271.99 Tm
+(Conseill\350re Technique \050temps partiel\051 \227 Foundever\054 Rabat) Tj
 T*
 ET
 Q
@@ -794,12 +848,12 @@ endobj
 <<
 /Type /Annot
 /Subtype /Link
-/Rect [ 188.26825 744.99362 363.635132 755.04462 ]
+/Rect [ 277.843676 755.86 373.578117 765.911 ]
 /Border [ 0 0 0 ]
 /A <<
 /S /URI
 /Type /Action
-/URI (https\072\057\057khadija\055ibisk\056github\056io\057Khadija\055Ibisk\055PortFolio\057)
+/URI (https\072\057\057github\056com\057Khadija\055ibisk)
 >>
 /P 4 0 R
 >>
@@ -808,7 +862,7 @@ endobj
 <<
 /Type /Annot
 /Subtype /Link
-/Rect [ 45.68504 744.99362 145.453032 755.04462 ]
+/Rect [ 45.68504 744.99 145.453032 755.041 ]
 /Border [ 0 0 0 ]
 /A <<
 /S /URI
@@ -818,28 +872,43 @@ endobj
 /P 4 0 R
 >>
 endobj
+14 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [ 188.26825 744.99 363.635132 755.041 ]
+/Border [ 0 0 0 ]
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057khadija\055ibisk\056github\056io\057Khadija\055Ibisk\055PortFolio\057)
+>>
+/P 4 0 R
+>>
+endobj
 xref
-0 14
+0 15
 0000000000 65535 f 
 0000000015 00000 n 
 0000000054 00000 n 
 0000000113 00000 n 
 0000000162 00000 n 
-0000000506 00000 n 
-0000017519 00000 n 
-0000017626 00000 n 
-0000017733 00000 n 
-0000017845 00000 n 
-0000017957 00000 n 
-0000018073 00000 n 
-0000095634 00000 n 
-0000095887 00000 n 
+0000000513 00000 n 
+0000018207 00000 n 
+0000018314 00000 n 
+0000018421 00000 n 
+0000018533 00000 n 
+0000018645 00000 n 
+0000018761 00000 n 
+0000096322 00000 n 
+0000096535 00000 n 
+0000096761 00000 n 
 trailer
 <<
-/Size 14
+/Size 15
 /Root 3 0 R
 /Info 1 0 R
 >>
 startxref
-96118
+97009
 %%EOF
