@@ -114,7 +114,7 @@
     <!-- ============ CHIFFRES ============ -->
     <section class="stats">
       <div class="container stats__grid">
-        <div class="stat reveal"><span class="stat__num" data-count="9">0</span><span class="stat__label">projets data réalisés</span></div>
+        <div class="stat reveal"><span class="stat__num" data-count="10">0</span><span class="stat__label">projets data réalisés</span></div>
         <div class="stat reveal"><span class="stat__num" data-count="3">0</span><span class="stat__label">expériences en entreprise</span></div>
         <div class="stat reveal"><span class="stat__num" data-count="25" data-suffix="+">0</span><span class="stat__label">technologies maîtrisées</span></div>
         <div class="stat reveal"><span class="stat__num" data-count="3">0</span><span class="stat__label">langues parlées</span></div>
@@ -233,7 +233,20 @@
         </div>
 
         <div class="projects" id="projects">
-          <article class="project project--featured reveal" data-cat="ml de">
+          <article class="project project--featured project--gh reveal" data-cat="de ml db">
+            <div class="project__top"><span class="project__year">2026</span><span class="project__tag">Data Engineering · Open source</span></div>
+            <h3>Energy Data Platform</h3>
+            <p class="project__sub">Plateforme de données sur la consommation électrique en France</p>
+            <p>Plateforme de bout en bout sur 12 régions : ingestion CSV / JSON, <strong>framework de qualité des données</strong>
+              avec quarantaine, entrepôt en couches raw → staging → marts en SQL avancé, <strong>orchestrateur DAG</strong>
+              avec reprises automatiques, <strong>prévision J+1</strong> par gradient boosting et <strong>API REST FastAPI</strong>,
+              le tout testé, conteneurisé (Docker) et intégré en continu.</p>
+            <div class="project__metrics"><span><b>210K</b> mesures horaires</span><span><b>18</b> contrôles qualité</span><span><b>2,2 %</b> d'erreur de prévision</span><span><b>25</b> tests</span></div>
+            <ul class="tags"><li>Python</li><li>SQL</li><li>Data quality</li><li>Orchestration</li><li>scikit-learn</li><li>FastAPI</li><li>Docker</li><li>CI/CD</li></ul>
+            <a class="project__link" href="https://github.com/Khadija-ibisk/energy-data-platform" target="_blank" rel="noopener">Voir le code sur GitHub →</a>
+          </article>
+
+          <article class="project reveal" data-cat="ml de">
             <div class="project__top"><span class="project__year">2025</span><span class="project__tag">Data & ML</span></div>
             <h3>EduTrack Analytics</h3>
             <p class="project__sub">Analyse de performance des étudiants</p>
