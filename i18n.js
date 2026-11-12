@@ -10,7 +10,7 @@
   "H|Projets": "Projects",
   "H|Parcours": "Background",
   "H|Me contacter": "Contact me",
-  "T|Disponible immédiatement · Stage Data de 6 mois": "Available now · 6-month Data internship",
+  "T|Disponible immédiatement · Stage Data de 3 mois": "Available now · 3-month Data internship",
   "T|Bonjour, je suis": "Hi, I'm",
   "H|Future ingénieure Data &amp; Intelligence Artificielle": "Future Data &amp; Artificial Intelligence Engineer",
   "H|Étudiante en <strong>Master Ingénierie des Données &amp; IA</strong> à Paris Ynov Campus. Je conçois des <strong>pipelines de données fiables et automatisés</strong> et je les mets au service de cas d'usage analytiques et d'intelligence artificielle.": "<strong>Master's student in Data Engineering &amp; AI</strong> at Paris Ynov Campus. I build <strong>reliable, automated data pipelines</strong> and put them to work for analytics and artificial intelligence use cases.",
@@ -25,7 +25,7 @@
   "H|fiables": "data",
   "T|, au service de décisions": ", powering",
   "H|utiles": "better decisions",
-  "H|Étudiante en <strong>Master Ingénierie des Données &amp; IA</strong> à Paris Ynov Campus, je recherche un <strong>stage de 6 mois en Data</strong> — Data Engineering, Data Analytics ou IA / Machine Learning — tous secteurs confondus.": "I'm a <strong>Master's student in Data Engineering &amp; AI</strong> at Paris Ynov Campus, looking for a <strong>6-month Data internship</strong> — Data Engineering, Data Analytics or AI / Machine Learning — in any industry.",
+  "H|Étudiante en <strong>Master Ingénierie des Données &amp; IA</strong> à Paris Ynov Campus, je recherche un <strong>stage de 3 mois en Data</strong> — Data Engineering, Data Analytics ou IA / Machine Learning — tous secteurs confondus.": "I'm a <strong>Master's student in Data Engineering &amp; AI</strong> at Paris Ynov Campus, looking for a <strong>3-month Data internship</strong> — Data Engineering, Data Analytics or AI / Machine Learning — in any industry.",
   "H|Je conçois des pipelines automatisés (Python, SQL, PostgreSQL, CI/CD) et je les relie à des usages concrets : modèles de Machine Learning, analyses statistiques et tableaux de bord Power BI.": "I design automated pipelines (Python, SQL, PostgreSQL, CI/CD) and connect them to real use cases: Machine Learning models, statistical analyses and Power BI dashboards.",
   "H|Ma première expérience en <strong>environnement bancaire réglementé</strong> chez Bank Al-Maghrib m'a appris que la qualité, la traçabilité et la fiabilité des données ne sont pas négociables.": "My first experience in a <strong>regulated banking environment</strong> at Bank Al-Maghrib (Morocco's central bank) taught me that data quality, traceability and reliability are non-negotiable.",
   "H|Rigoureuse": "Rigorous",
@@ -153,7 +153,7 @@
   "H|🛡️ Veille cybersécurité": "🛡️ Cybersecurity watch",
   "T|Construisons ensemble vos": "Let's build your",
   "H|pipelines de demain": "data pipelines of tomorrow",
-  "H|Je recherche un <strong>stage Data de 6 mois</strong> (Data Engineering, Data Analytics, IA / ML). <strong>Disponible immédiatement.</strong> Basée à Nanterre, mobile en Île-de-France.": "I'm looking for a <strong>6-month Data internship</strong> (Data Engineering, Data Analytics, AI / ML). <strong>Available now.</strong> Based in Nanterre, open to anywhere in the Paris region.",
+  "H|Je recherche un <strong>stage Data de 3 mois</strong> (Data Engineering, Data Analytics, IA / ML). <strong>Disponible immédiatement.</strong> Basée à Nanterre, mobile en Île-de-France.": "I'm looking for a <strong>3-month Data internship</strong> (Data Engineering, Data Analytics, AI / ML). <strong>Available now.</strong> Based in Nanterre, open to anywhere in the Paris region.",
   "H|Copier l'e-mail": "Copy email",
   "H|CV (PDF)": "CV (PDF, French)",
   "T|Khadija Ibisk · Conçu avec soin, HTML, CSS & JavaScript.": "Khadija Ibisk · Carefully crafted with HTML, CSS & JavaScript.",
@@ -168,7 +168,7 @@
   "A|Filtrer les projets": "Filter projects",
   "A|Retour en haut": "Back to top",
   "A|Khadija Ibisk — Future ingénieure Data & Intelligence Artificielle": "Khadija Ibisk — Future Data & AI Engineer",
-  "A|Portfolio de Khadija Ibisk, étudiante en Master Ingénierie des Données & IA à Paris Ynov Campus. Recherche un stage Data de 6 mois.": "Portfolio of Khadija Ibisk, Master's student in Data Engineering & AI at Paris Ynov Campus, looking for a 6-month Data internship."
+  "A|Portfolio de Khadija Ibisk, étudiante en Master Ingénierie des Données & IA à Paris Ynov Campus. Recherche un stage Data de 3 mois.": "Portfolio of Khadija Ibisk, Master's student in Data Engineering & AI at Paris Ynov Campus, looking for a 3-month Data internship."
 };
   var UI = {
     fr: { btn: "EN", btnLabel: "Switch to English", toast: "E-mail copié ✓" },
