@@ -153,7 +153,7 @@
   "H|🛡️ Veille cybersécurité": "🛡️ Cybersecurity watch",
   "T|Construisons ensemble vos": "Let's build your",
   "H|pipelines de demain": "data pipelines of tomorrow",
-  "H|Je recherche un <strong>stage Data de 3 mois</strong> (Data Engineering, Data Analytics, IA / ML). <strong>Disponible à partir de mai 2027.</strong> Basée à Nanterre, mobile en Île-de-France.": "I'm looking for a <strong>3-month Data internship</strong> (Data Engineering, Data Analytics, AI / ML). <strong>Available from May 2027.</strong> Based in Nanterre, open to anywhere in the Paris region.",
+  "H|Je recherche un <strong>stage Data de 3 mois</strong> de Master 1 (Data Engineering, Data Analytics, IA / ML). <strong>Disponible à partir de mai 2027.</strong> Basée à Nanterre, mobile en Île-de-France.": "I'm looking for a <strong>3-month Data internship</strong> as part of my 1st-year Master's (Data Engineering, Data Analytics, AI / ML). <strong>Available from May 2027.</strong> Based in Nanterre, open to anywhere in the Paris region.",
   "H|Copier l'e-mail": "Copy email",
   "H|CV (PDF)": "CV (PDF, French)",
   "T|Khadija Ibisk · Conçu avec soin, HTML, CSS & JavaScript.": "Khadija Ibisk · Carefully crafted with HTML, CSS & JavaScript.",
@@ -168,7 +168,7 @@
   "A|Filtrer les projets": "Filter projects",
   "A|Retour en haut": "Back to top",
   "A|Khadija Ibisk — Future ingénieure Data & Intelligence Artificielle": "Khadija Ibisk — Future Data & AI Engineer",
-  "A|Portfolio de Khadija Ibisk, étudiante en Master Ingénierie des Données & IA à Paris Ynov Campus. Recherche un stage Data de 3 mois.": "Portfolio of Khadija Ibisk, Master's student in Data Engineering & AI at Paris Ynov Campus, looking for a 3-month Data internship."
+  "A|Portfolio de Khadija Ibisk, étudiante en Master Ingénierie des Données & IA à Paris Ynov Campus. Recherche un stage Data de 3 mois (Master 1) à partir de mai 2027.": "Portfolio of Khadija Ibisk, Master's student in Data Engineering & AI at Paris Ynov Campus, looking for a 3-month Data internship (1st-year Master's) from May 2027."
 };
   var UI = {
     fr: { btn: "EN", btnLabel: "Switch to English", toast: "E-mail copié ✓" },
@@ -229,6 +229,10 @@
       else document.title = v;
     });
     document.documentElement.setAttribute("lang", lang);
+    document.querySelectorAll("a[data-cv-en]").forEach(function (a) {
+      if (!a.dataset.cvFr) a.dataset.cvFr = a.getAttribute("href");
+      a.setAttribute("href", lang === "en" ? a.dataset.cvEn : a.dataset.cvFr);
+    });
     var btn = document.getElementById("langToggle");
     if (btn) {
       btn.textContent = UI[lang].btn;
