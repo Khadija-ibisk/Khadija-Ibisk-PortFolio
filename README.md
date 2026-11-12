@@ -17,3 +17,13 @@ python -m http.server 8000
 ## Mettre en ligne (GitHub Pages)
 
 Site en ligne : https://khadija-ibisk.github.io/Khadija-Ibisk-PortFolio/ (GitHub Pages, **Settings → Pages → Branch : main / root**).
+
+## Mettre à jour le CV
+
+Les CV PDF (`assets/CV_Khadija_Ibisk.pdf` en français, `assets/CV_Khadija_Ibisk_EN.pdf` en anglais) sont générés par `cv/build_cv.py`.
+Modifier le texte dans ce fichier, puis :
+
+```bash
+pip install reportlab
+python3 cv/build_cv.py
+```
